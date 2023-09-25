@@ -1,6 +1,4 @@
-
-
-## Getting Started
+## Note app frontend 
 
 First, run the development server:
 
@@ -12,7 +10,4 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deployment
-
+Open [http://localhost:3000](http://localhost:3000)
