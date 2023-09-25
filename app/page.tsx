@@ -1,8 +1,11 @@
-import Image from 'next/image'
-
+'use client'
+import {NextUIProvider} from "@nextui-org/react";
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    </main>
+      <NextUIProvider>
+          <main className='dark text-foreground bg-background'>
+              <h1>Hi note app here</h1>
+          </main>
+      </NextUIProvider>
   )
 }
